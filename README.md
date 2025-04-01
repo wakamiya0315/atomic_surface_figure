@@ -62,7 +62,7 @@ Pythonスクリプト内で関数を直接呼び出すことも可能である�
 from atmic_surface_figure import make_fcc_surface_figure
 
 # NiのスラブにCO分子を10個配置して "Ni_CO_10.png" として保存する
-slab = make_fcc_surface_figure("Ni", "CO", 10)
+make_fcc_surface_figure("Ni", "CO", 10)
 ```
 
 ## 関数詳細
