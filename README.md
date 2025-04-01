@@ -16,9 +16,18 @@
 
 ## インストール
 
-ASEのインストール例：
+リポジトリからクローンして利用する場合：
+
 ```bash
-pip install ase
+git clone https://github.com/wakamiya0315/atomic_surface_figure.git
+cd atomic_surface_figure
+pip install -r requirements.txt
+```
+
+最新のコードを直接インストールするには：
+
+```bash
+pip install git+https://github.com/wakamiya0315/atomic_surface_figure.git
 ```
 
 ## 使用方法
